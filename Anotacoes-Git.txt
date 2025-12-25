@@ -1,0 +1,13 @@
+Para instalar o git no windows
+https://git-scm.com/downloads
+
+senha:  S3nha@git
+
+Para chamar o prompt de comando
+git bash
+
+verifica a versão do git instalada
+git --version
+
+para verificar a pasta
+git status
