@@ -11,3 +11,13 @@ git --version
 
 para verificar a pasta
 git status
+
+Criar um repositório na máquina local
+git init
+git add "arquivo a adicionar ou add.(adiciona tudo)"
+git commit -m "primeiro commit"
+ se pedir e-mail ou usuário
+git config --global user.email "linsmelo@gmail.com"
+
+git branch -M master
+git remote add origin https://github.com/Laercio0110/CursoGit1.git
