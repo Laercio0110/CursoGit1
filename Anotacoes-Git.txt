@@ -14,10 +14,51 @@ git status
 
 Criar um repositório na máquina local
 git init
-git add "arquivo a adicionar ou add.(adiciona tudo)"
+git add arquivo a adicionar ou add.(adiciona tudo)
 git commit -m "primeiro commit"
  se pedir e-mail ou usuário
 git config --global user.email "linsmelo@gmail.com"
 git branch -M master
 git remote add origin https://github.com/Laercio0110/CursoGit1.git
+
+limpar a tela do terminal
+clear
+verificar projeto 
+git status
+
+para atualizar o github
+para atualizar um arquivo específico
+git commit indext.html -m "enviando o arquivo index.html"
+para atualizar vários arquivos
+git commit -a -m "enviando a funcionalidade X"
+
+para publicar as alterações no repositório remoto
+git push
+
+para receber mudanças feitas no repositório remoto
+git pull
+
+para clonar um repositório
+git clone https://github.com/Laercio0110/CursoGit1.git .
+Obs. o ponto no final indica diretorio atualizar
+
+para remover um arquivo do repositório
+git rm index.html
+
+historico de alterações
+git log
+Obs para sair do log <ctrl c> ou "q"
+
+para renomear um arquivo ou mover de pasta
+git mv rodape.css css/rodape.css
+
+para desfazer alterações
+git checkout arquivo
+
+para ignorar arquivos no projeto
+criar o arquivo .gitignore
+
+para desfazer alterações inclisive as comitadas
+git reset --hard origin/master
+Obs. ficará igual à master
 
