@@ -205,4 +205,15 @@ A função foi criada para novos clientes conseguirem adicionar produtos ao carr
 
 Obs.: não fechando a " no final da linha e teclando <enter> permite pular uma linha. na tela aparece ">>"
 
-EXPLORANDO O GITHUB
+EXPLORANDO E ENTENDENDO O GITHUB
+Criando o repositório
+Crtiar um repositório no github verifique se deverá ser púlic ou private e os demais itens (readme, .gitignore,choose licence,etc)
+Obs. por default informe MIT licence
+
+Aba code (aula 66)
+Verificando licenças (67)
+Aba issue (aula 68)
+Anotações do que precisa corrigir
+
+Aba pull request (aula 69)
+
