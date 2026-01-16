@@ -159,3 +159,50 @@ Exibindo informações
 git show
 para ver tags
 git show <tag>
+
+Exibindo Diferenças
+Para verificar diferença da branch atual
+git diff
+
+Para verificar diferença entre branches
+git diff <branch>
+
+Para verificar diferença entre arquivos
+git diff <HEAD:arquivo1> <arquivo1>
+
+Log de atividades resumido
+git shortlog
+
+ADMINISTRAÇÃO DO REPOSITORIO
+Limpando arquivos untracked (arquivos que não foram utilizados o add)
+git clean -f
+Obs. cuidado com este comando verifique se realmente é para limpar
+
+Otimizando o repositorio
+git gc   (garbage collector)
+
+Checando a integridade dos arquivos
+git fsck
+
+Reflog
+Para mapear todos os passos no repositorio
+Obs. Expira a cada 30 dias, mas pode ser configurado
+
+Comprimindo o repositorio
+git archive --format zip --output <nome_arquivo.zip>
+
+MELHORANDO OS COMMITS DO PROJETO
+Criando branches que não serão compartilhas no repositório
+git rebase <func_a> <private_func_a> -i
+
+edita a mensagem gerada e salva (dúvida rever aula 63)
+
+Boas mensagens de commits
+Separar assunto no corpo da mensagem com no máximo 50 caracteres e a letra inicial em maiúsculo
+Corpo com no máximo 72 caracteres explicando como e porque do commit e não como o código foi escrito
+Ex.: git commit -a -m "Criada a função de adição de produtos
+A função foi criada para novos clientes conseguirem adicionar produtos ao carrinho antes do login"
+
+Obs.: não fechando a " no final da linha e teclando <enter> permite pular uma linha. na tela aparece ">>"
+
+EXPLORANDO O GITHUB
