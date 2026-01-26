@@ -279,3 +279,18 @@ Ex.:
 Contribuidor: https://github.com/Laercio0110
 para incluir uma imagem
 [![Logo do PHP](https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg)](https://github.com/Laercio0110)
+
+INSERINDO CÓDIGO (aula 85)
+### codigo da função soma
+``` javascript
+function soma (a,b) {
+    return a + b;
+}
+```
+
+TASK LIST (aula 86)
+## Lista de tarefas a fazer
+- [x] Tarefa pronta
+- [] Tarefa a fazer
+- [] Tarefa2 a fazer
+- [x] Tarefa do rodapé
