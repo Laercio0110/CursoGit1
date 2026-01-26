@@ -217,3 +217,55 @@ Anotações do que precisa corrigir
 
 Aba pull request (aula 69)
 
+Aba actions (aula 70)
+Ci/Cd
+
+Aba projects (aula 71)
+Kanban
+
+Aba wiki (aula 72)
+documentação mais extensa do projeto
+
+Aba insights (aula 73)
+informações sobre o projeto
+Obs. Forks quando alguém clona o nosso projeto
+
+Aba settinghs (aula 74)
+acesso a diversas configurações do projeto
+
+CRIANDO UM GIST  (aula 75)
+Obs. São pequenos códigos guardados no github
+
+ENCONTRANDO REPOSITORIOS (aula 76)
+Obs. ir para a home do github e pesquisar , pode demorar um pouco.
+
+MARKDOWN (aula 78)
+è uma forma de adicionar estilos a textos
+o arquivo README.md aceita MARKDOWN (aula 79)
+
+Cabeçalhos são determinados pelo símbolo # (aula 80)
+Obs. # h1, ## h2, ### h3 vai até 6
+
+Ênfase (aula 81)
+**texto**  ou __texto__ -> negrito
+*texto* ou _texto_ -> itálico
+-**texto**_ -> combinado
+
+Listas (aula 82)
+Ex. ### linguagens do projeto:
+* html
+* javascript
+* css
+* php
+
+### Funcionalidades a desenvolver:
+1. Área de membros
+    1. Login diferente para grupo de clientes
+    2. Desconto para clientes diferentes
+    3. CSS para grupo de clientes diferentes
+2. Integração com outros pagamentos
+3. Sistema de bônus primeira compra
+Obs. para subtítulos tem que ter 4 espaços
+
+Imagens (aula 83)
+![Tigre](img/images.jpg)
