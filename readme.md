@@ -290,7 +290,7 @@ function soma (a,b) {
 
 TASK LIST (aula 86)
 ## Lista de tarefas a fazer
-- [x] Tarefa pronta
-- [] Tarefa a fazer
-- [] Tarefa2 a fazer
+- [x] Tarefa1 pronta
+- [ ] Tarefa2 a fazer
+- [ ] Tarefa3 a fazer
 - [x] Tarefa do rodapé
